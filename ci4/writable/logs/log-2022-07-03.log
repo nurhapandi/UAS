@@ -1,0 +1,51 @@
+ERROR - 2022-07-03 01:36:39 --> Error connecting to the database: Unknown database 'uas'
+CRITICAL - 2022-07-03 01:36:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'uas'
+#0 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Models\DaftarModel.php(16): CodeIgniter\BaseModel->paginate(10, 'warga')
+#5 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Controllers\Home.php(35): App\Models\DaftarModel->getDaftar()
+#6 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\UAS_Pemrograman\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-07-03 02:43:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Views\daftar\create.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Common.php(1089): CodeIgniter\View\View->render('daftar/create', Array, true)
+#4 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Controllers\Home.php(225): view('daftar/create', Array)
+#5 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(832): App\Controllers\Home->panggil('img', 'undraw_profile....')
+#6 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UAS_Pemrograman\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-03 02:45:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Views\daftar\create.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Common.php(1089): CodeIgniter\View\View->render('daftar/create', Array, true)
+#4 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Controllers\Home.php(225): view('daftar/create', Array)
+#5 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(832): App\Controllers\Home->panggil('img', 'undraw_profile....')
+#6 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UAS_Pemrograman\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-03 02:47:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Views\daftar\create.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Common.php(1089): CodeIgniter\View\View->render('daftar/create', Array, true)
+#4 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Controllers\Home.php(225): view('daftar/create', Array)
+#5 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(832): App\Controllers\Home->panggil('img', 'undraw_profile....')
+#6 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UAS_Pemrograman\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

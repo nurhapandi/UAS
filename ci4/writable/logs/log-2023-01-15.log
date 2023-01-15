@@ -1,0 +1,21 @@
+CRITICAL - 2023-01-15 14:55:28 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci4\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2023-01-15 08:17:23 --> Error connecting to the database: Unknown database 'iuran'
+CRITICAL - 2023-01-15 08:17:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'iuran'
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\ci4\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\ci4\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\ci4\app\Models\DaftarModel.php(16): CodeIgniter\BaseModel->paginate(10, 'warga')
+#5 C:\xampp\htdocs\ci4\app\Controllers\Home.php(35): App\Models\DaftarModel->getDaftar()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

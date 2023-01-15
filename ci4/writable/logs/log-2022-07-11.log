@@ -1,0 +1,58 @@
+ERROR - 2022-07-11 23:22:03 --> Error connecting to the database: Unknown database 'uas'
+CRITICAL - 2022-07-11 23:22:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'uas'
+#0 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Models\DaftarModel.php(16): CodeIgniter\BaseModel->paginate(10, 'warga')
+#5 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Controllers\Home.php(35): App\Models\DaftarModel->getDaftar()
+#6 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\UAS_Pemrograman\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-07-11 23:56:09 --> Error connecting to the database: Unknown database 'uas'
+CRITICAL - 2022-07-11 23:56:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'uas'
+#0 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Models\DaftarModel.php(16): CodeIgniter\BaseModel->paginate(10, 'warga')
+#5 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Controllers\Home.php(35): App\Models\DaftarModel->getDaftar()
+#6 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\UAS_Pemrograman\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-07-11 23:56:25 --> Error connecting to the database: Unknown database 'uas'
+CRITICAL - 2022-07-11 23:56:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'uas'
+#0 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Models\KasModel.php(18): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Controllers\Daftar.php(34): App\Models\KasModel->getAll()
+#5 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(832): App\Controllers\Daftar->index()
+#6 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#7 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UAS_Pemrograman\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-07-11 23:56:33 --> Error connecting to the database: Unknown database 'uas'
+CRITICAL - 2022-07-11 23:56:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'uas'
+#0 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Models\KasModel.php(18): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\UAS_Pemrograman\ci4\app\Controllers\Daftar.php(112): App\Models\KasModel->getAll()
+#5 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(832): App\Controllers\Daftar->total()
+#6 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#7 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UAS_Pemrograman\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UAS_Pemrograman\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
